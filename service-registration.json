@@ -1,0 +1,41 @@
+{
+  "vertical": "bill8",
+  "services": [],
+  "apps": [
+    {
+      "slug": "checkout",
+      "web_dir": "build/web",
+      "listing": {
+        "app_name": "Bill8:Checkout",
+        "app_slug": "bill8-checkout",
+        "description": "Bill8 hosted checkout — payment pages and payment links rendered for the customer.",
+        "backend_url": "http://localhost:3007",
+        "supports_dcr": true,
+        "visibility": "public",
+        "status": "published",
+        "oauth_defaults": {
+          "grant_types": [
+            "authorization_code",
+            "refresh_token"
+          ],
+          "response_types": [
+            "code"
+          ],
+          "token_endpoint_auth_method": "none",
+          "scopes": [
+            "openid",
+            "profile",
+            "email",
+            "bill8:checkout:sessions:read",
+            "bill8:checkout:sessions:write",
+            "bill8:payments:intents:read",
+            "bill8:payments:intents:write",
+            "bill8:billing:subscriptions:write",
+            "storage:env:read"
+          ],
+          "consent_required": false
+        }
+      }
+    }
+  ]
+}
