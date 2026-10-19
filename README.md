@@ -1,4 +1,4 @@
-# Bill8:Checkout — Flutter App
+# Bill8:Checkout - Flutter App
 
 The hosted payment surface: payment pages and links rendered for the
 customer.
@@ -11,7 +11,7 @@ checkout service and completes sessions through the BFF proxy.
 
 ## 2. Motivation
 
-Card-handling UI lives in one place — this app — so merchants never
+Card-handling UI lives in one place - this app - so merchants never
 build payment pages. Hosted pages keep card data in one surface and
 simplify compliance.
 
@@ -27,7 +27,7 @@ graph TD
 
 ## 4. Key Traits and Data Structures
 
-- `Bff8ApiClient` — shared BFF client.
+- `Bff8ApiClient` - shared BFF client.
 - Page renderer driven by session definitions.
 
 ## 5. Rationale, Trade-offs, and Alternatives

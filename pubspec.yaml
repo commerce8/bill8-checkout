@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 name: checkout
-description: Bill8:Checkout — hosted checkout for a payment session (card, wallet, bank debit). Flutter (iOS, Android, Web).
+description: Bill8:Checkout - hosted checkout for a payment session (card, wallet, bank debit). Flutter (iOS, Android, Web).
 publish_to: "none"
 version: 0.1.0
 

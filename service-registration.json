@@ -8,7 +8,7 @@
       "listing": {
         "app_name": "Bill8:Checkout",
         "app_slug": "bill8-checkout",
-        "description": "Bill8 hosted checkout — payment pages and payment links rendered for the customer.",
+        "description": "Bill8 hosted checkout - payment pages and payment links rendered for the customer.",
         "backend_url": "http://localhost:3007",
         "supports_dcr": true,
         "visibility": "public",
