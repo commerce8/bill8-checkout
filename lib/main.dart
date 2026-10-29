@@ -3,13 +3,13 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Bill8:Checkout
 // SPDX-License-Identifier: Apache-2.0
 
-// Bill8:Checkout — main entry point.
+// Bill8:Checkout - main entry point.
 //
 // The hosted checkout surface: a customer completes a payment session
 // (card, wallet, bank debit) created by the merchant through
 // Bill8:Checkout's session API. All API traffic routes through
 // BffApiClient → Sentin8:BFF /proxy/checkout/... (the platform BFF
-// pattern — tokens never reach the client).
+// pattern - tokens never reach the client).
 
 import 'package:flutter/material.dart';
 import 'package:flutter/semantics.dart';
@@ -23,7 +23,7 @@ void main() {
   runApp(const CheckoutApp());
 }
 
-/// Root widget — resolves the runtime context, then the checkout form.
+/// Root widget - resolves the runtime context, then the checkout form.
 class CheckoutApp extends StatelessWidget {
   const CheckoutApp({super.key});
 

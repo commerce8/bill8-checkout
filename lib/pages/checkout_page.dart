@@ -3,13 +3,13 @@
 // SPDX-FileCopyrightText: Copyright Contributors to the Bill8:Checkout
 // SPDX-License-Identifier: Apache-2.0
 
-// The checkout page — the hosted payment form for a session.
+// The checkout page - the hosted payment form for a session.
 //
 // The session reference arrives via the URL (?session=...); the
 // session's line items and total render from the checkout service
 // through the BFF proxy. Payment method selection reflects the
 // service's method catalog; submission completes the session (the
-// guarded single-use transition — checkout DESIGN.md §2).
+// guarded single-use transition - checkout DESIGN.md §2).
 
 import 'package:flutter/material.dart';
 import 'package:sentin8/sentin8.dart';
@@ -47,7 +47,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                     SizedBox(height: Sentin8Spacing.sm),
                     Text(
                       'Your card details are tokenized at entry (publishable '
-                      'credential) — the merchant never sees them.',
+                      'credential) - the merchant never sees them.',
                       style: Sentin8Text.bodyMedium,
                     ),
                   ],
@@ -73,7 +73,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
   }
 }
 
-/// The payment form — amount display, method choice, and submit.
+/// The payment form - amount display, method choice, and submit.
 ///
 /// The submit posts through the BFF proxy; the response's failure
 /// branch surfaces the uniform error envelope (wire contracts).
